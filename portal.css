@@ -2174,3 +2174,10 @@ textarea:focus {
     display: none;
   }
 }
+
+/* Numbers are entered left-to-right even when field labels are Persian. */
+[dir="rtl"] input:is([type="number"], [type="tel"], [type="email"], [inputmode="numeric"], [inputmode="decimal"]) {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: start;
+}
