@@ -38,13 +38,13 @@ const FA = {
   "Your tickets, orders and help, in one place.": "تیکت‌ها، سفارش‌ها و راهنما، همه در یک‌جا.",
   "Sign in with your SauFox account": "ورود با حساب ساوفاکس",
   "No account yet?": "هنوز حساب ندارید؟",
-  "Create one": "بسازید",
+  "Create one": "ایجاد حساب کاربری",
   "Signing you in…": "در حال ورود…",
   "That sign-in link has expired or was already used. Please sign in again.":
     "این لینک ورود منقضی شده یا قبلاً استفاده شده است. لطفاً دوباره وارد شوید.",
   "Couldn't reach the server. Check your connection and reload the page.":
     "به سرور دسترسی نداریم. اینترنت را بررسی کنید و صفحه را دوباره باز کنید.",
-  Overview: "داشبورد",
+  Overview: "نمای کلی",
   Tickets: "تیکت‌ها",
   "New ticket": "تیکت جدید",
   Orders: "سفارش‌ها",
@@ -63,7 +63,7 @@ const FA = {
   None: "ندارید",
   "until {date}": "تا {date}",
   "Recent tickets": "تیکت‌های اخیر",
-  "See all": "همه",
+  "See all": "مشاهدهٔ همه",
   "No tickets yet.": "هنوز تیکتی ندارید.",
   "Need help? Open a ticket and we'll answer here, and by email.":
     "کمک لازم دارید؟ یک تیکت باز کنید؛ همین‌جا و با ایمیل پاسخ می‌دهیم.",
@@ -71,13 +71,13 @@ const FA = {
   "No orders yet.": "هنوز سفارشی ندارید.",
   All: "همه",
   "Search tickets": "جست‌وجو در تیکت‌ها",
-  "Nothing here.": "موردی نیست.",
+  "Nothing here.": "موردی پیدا نشد.",
   "New reply": "پاسخ تازه",
   Ticket: "تیکت",
-  "Opened {date}": "باز شده در {date}",
-  "This ticket isn't here. It may belong to another account.": "این تیکت پیدا نشد. شاید مال حساب دیگری باشد.",
+  "Opened {date}": "تاریخ ثبت: {date}",
+  "This ticket isn't here. It may belong to another account.": "این تیکت در دسترس نیست. ممکن است متعلق به حساب دیگری باشد.",
   "This ticket is closed. Write below if you need us again, and it opens again.":
-    "این تیکت بسته شده است. اگر باز هم کمک لازم دارید، پایین بنویسید تا دوباره باز شود.",
+    "این تیکت بسته شده است. برای ادامهٔ گفتگو، پیام جدیدی ارسال کنید تا تیکت دوباره باز شود.",
   "Write your reply…": "پاسختان را بنویسید…",
   Attach: "پیوست",
   Send: "ارسال",
@@ -105,11 +105,11 @@ const FA = {
     "۵ تیکت باز دارید. یکی را که دیگر لازم ندارید ببندید، یا در همان تیکت بنویسید.",
   "Wait a minute before opening another ticket.": "یک دقیقه صبر کنید و بعد تیکت دیگری باز کنید.",
   "Wait a few seconds before sending again.": "چند ثانیه صبر کنید و دوباره بفرستید.",
-  "This ticket is full. Please open a new one.": "این تیکت پر شده است. لطفاً تیکت تازه‌ای باز کنید.",
-  "Not changed. Try again.": "تغییر نکرد. دوباره امتحان کنید.",
+  "This ticket is full. Please open a new one.": "تعداد پیام‌های این تیکت به حد مجاز رسیده است. لطفاً تیکت جدیدی ثبت کنید.",
+  "Not changed. Try again.": "تغییرات ثبت نشد. دوباره تلاش کنید.",
   "Attach an image (JPG, PNG, WebP or GIF) or a PDF.": "یک تصویر (JPG، PNG، WebP یا GIF) یا PDF پیوست کنید.",
   "Files can be up to 5 MB.": "حجم فایل حداکثر ۵ مگابایت است.",
-  "The file didn't upload. Try again.": "فایل آپلود نشد. دوباره امتحان کنید.",
+  "The file didn't upload. Try again.": "بارگذاری فایل انجام نشد. دوباره تلاش کنید.",
   "Your orders": "سفارش‌های شما",
   "Get help": "درخواست کمک",
   "Awaiting payment": "در انتظار پرداخت",
@@ -125,22 +125,22 @@ const FA = {
   Titanium: "تیتانیوم",
   "Help and answers": "راهنما و پاسخ‌ها",
   "Quick answers first; if yours isn't there, open a ticket.":
-    "اول پاسخ‌های سریع؛ اگر پاسخ سوالتان نبود، تیکت باز کنید.",
+    "ابتدا پرسش‌های رایج را بررسی کنید. اگر پاسخ خود را پیدا نکردید، تیکت ثبت کنید.",
   "Account and sign-in help": "حساب کاربری و ورود",
   "Codes, passwords, Google sign-in.": "کد تأیید، رمز عبور، ورود با گوگل.",
   "Buying and payment": "خرید و پرداخت",
   "Paying, receipts, pre-orders.": "پرداخت، رسید، پیش‌خرید.",
   "Refunds and terms": "بازگشت وجه و قوانین",
-  "What can be refunded, and how.": "چه چیزی قابل بازگشت است و چطور.",
+  "What can be refunded, and how.": "شرایط و مراحل درخواست بازگشت وجه.",
   Subscriptions: "اشتراک‌ها",
   "Iron, Gold and Titanium plans.": "اشتراک‌های آهن، طلا و تیتانیوم.",
   "Other ways to reach us": "راه‌های دیگر تماس",
   "Email": "ایمیل",
   Phone: "تلفن",
   "Language": "زبان",
-  "Open a ticket": "باز کردن تیکت",
+  "Open a ticket": "ثبت تیکت",
   Member: "کاربر",
-  "Support desk": "میز پشتیبانی",
+  "Support desk": "پنل پشتیبانی",
   "Reply as SauFox Entertainment…": "پاسخ به‌عنوان ساوفاکس…",
   Reopen: "باز کردن دوباره",
   "Closed. A reply opens it again.": "بسته شده. با پاسخ دادن دوباره باز می‌شود.",
@@ -152,22 +152,23 @@ const FA = {
   "This ticket isn't here.": "این تیکت پیدا نشد.",
 };
 const faDigits = (text) => String(text).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
-const digits = (text) => (LANG === "fa" ? faDigits(text) : String(text));
+const isolateNumbers = (text) => (LANG === "fa" ? SauFoxNumbers.isolate(text) : String(text));
+const digits = (text) => isolateNumbers(LANG === "fa" ? faDigits(text) : text);
 const t = (text, values = {}) => {
   let out = LANG === "fa" && FA[text] !== undefined ? FA[text] : text;
   for (const [k, v] of Object.entries(values)) out = out.replace(`{${k}}`, typeof v === "number" ? digits(v) : v);
-  return out;
+  return isolateNumbers(out);
 };
 const when = (iso, withTime = true) =>
-  new Date(iso).toLocaleString(LANG === "fa" ? "fa-IR" : "en-GB", {
+  isolateNumbers(new Date(iso).toLocaleString(LANG === "fa" ? "fa-IR" : "en-GB", {
     day: "numeric",
     month: "long",
     year: withTime ? undefined : "numeric",
     hour: withTime ? "2-digit" : undefined,
     minute: withTime ? "2-digit" : undefined,
     timeZone: "Asia/Tehran",
-  });
-const rials = (n) => (LANG === "fa" ? `${Number(n).toLocaleString("fa-IR")} ریال` : `${Number(n).toLocaleString("en-US")} Rials`);
+  }));
+const rials = (n) => (LANG === "fa" ? `${isolateNumbers(Number(n).toLocaleString("fa-IR"))} ریال` : `${Number(n).toLocaleString("en-US")} Rials`);
 
 // h("div.class", { attr }, children…): an element. Text children stay text,
 // never HTML.
